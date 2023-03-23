@@ -1,0 +1,31 @@
+.main {
+    padding: 4em 2em;
+    background-image: url("../assets/react-icon-large.png");
+    background-repeat: no-repeat;
+    background-position: right 40%;
+    max-width: 1100px;
+    margin-inline: auto;
+}
+
+.content-title {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.facts-list {
+    margin-top: 3em;
+    margin-bottom: 7em;
+    margin-left: 3em;
+    color: white;
+}
+
+.facts-list > li{
+    margin: 1.5em 0;
+    width: 40ch;
+}
+
+.facts-list > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
